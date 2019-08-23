@@ -31,7 +31,7 @@
     scheme: 'Pisces',
     version: '7.3.0',
     exturl: false,
-    sidebar: {"position":"right","display":"post","offset":12,"onmobile":false},
+    sidebar: {"position":"left","display":"post","offset":12,"onmobile":false},
     copycode: {"enable":true,"show_result":false,"style":null},
     back2top: {"enable":true,"sidebar":false,"scrollpercent":false},
     bookmark: {"enable":false,"color":"#222","save":"auto"},
@@ -333,7 +333,7 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <p>优化无处不在，无论你是不是从事优化研究，你都或多或少地面临研究模型优化问题。解决优化问题的算法被统称为优化算法，但优化算法的类型是非常多的。在机器学习中，大家都十分熟悉梯度下降法，在物理模型优化中，大家都熟悉牛顿法，而这些都是较为传统的优化算法了。随着模型越来越复杂，优化目标越来越多，传统算法都慢慢地无法胜任复杂优化任务，更为智能的优化方法也就应运而生了。其中有一类是进化优化算法，这类算法的思想来源是自然界的“优胜劣汰”法则，通过不停地保留好的个体最终达到优化目的。IEEE下有<a href="http://www.baidu.com/link?url=GcMzP38YZLrf4w9TH_A4en-NdcdwFkA02XrGCUyJL8Qid9Byi40HYvkku_JNBz49sji9MqeKovfBylcYCZm7v5jGX4Grv1RsYlA5G8fh4iPnaxI9daErly9bn10roRU0" target="_blank" rel="noopener"><em>IEEE</em> Transactions on Evolutionary Computation</a>是为这类算法而开的。进化算法中最为人熟知的应该是遗传算法了，经过几十年的发展，现在进化算法家族已经枝繁叶茂了，重要的是越来越多的领域都开始使用这类算法解决一些实际难题了。关于遗传算法的通俗解释，大家可参阅科学松鼠会的这篇文章：<a href="https://songshuhui.net/archives/10462。而其余的进化类算法框架几乎与遗传算法相一致，有兴趣的可以查找更多的文献了解。" target="_blank" rel="noopener">https://songshuhui.net/archives/10462。而其余的进化类算法框架几乎与遗传算法相一致，有兴趣的可以查找更多的文献了解。</a></p>
+        <p>优化无处不在，无论你是不是从事优化研究，你都或多或少地面临研究模型优化问题。解决优化问题的算法被统称为优化算法，但优化算法的类型是非常多的。在机器学习中，大家都十分熟悉梯度下降法，在物理模型优化中，大家都熟悉牛顿法，而这些都是较为传统的优化算法了。随着模型越来越复杂，优化目标越来越多，传统算法都慢慢地无法胜任复杂优化任务，更为智能的优化方法也就应运而生了。其中有一类是进化优化算法，这类算法的思想来源是自然界的“优胜劣汰”法则，通过不停地保留好的个体最终达到优化目的。IEEE下有<a href="http://www.baidu.com/link?url=GcMzP38YZLrf4w9TH_A4en-NdcdwFkA02XrGCUyJL8Qid9Byi40HYvkku_JNBz49sji9MqeKovfBylcYCZm7v5jGX4Grv1RsYlA5G8fh4iPnaxI9daErly9bn10roRU0" target="_blank" rel="noopener"><em>IEEE</em> Transactions on Evolutionary Computation</a>是为这类算法而开的。进化算法中最为人熟知的应该是遗传算法了，经过几十年的发展，现在进化算法家族已经枝繁叶茂了，重要的是越来越多的领域都开始使用这类算法解决一些实际难题了。关于遗传算法的通俗解释，大家可参阅科学松鼠会的这篇文章：<a href="https://songshuhui.net/archives/10462。而其余的进化类算法框架几乎与遗传算法相一致，有兴趣的可以查找更多的文献了解。" target="_blank" rel="noopener">https://songshuhui.net/archives/10462。而其余的进化类算法框架几乎与遗传算法相一致，有兴趣的可以查找更多的文献了解。</a></p><a id="more"></a>
 <p>算法是好，但初学者要如何尽快地用它来解决自己的优化模型呢，毕竟不能都去研究实现这类算法。为了帮助读者更快地能够使用算法，本文将介绍一些比较流行的优化框架。使用优化框架，你不用再管算法如何实现，而只需要选择算法、编制优化问题，编译运行，相信会大大地降低优化研究的门槛。</p>
 <h5 id="PlatEMO"><a href="#PlatEMO" class="headerlink" title="PlatEMO"></a>PlatEMO</h5><p><img src="https://raw.githubusercontent.com/hughdj/hughfigurebed/master/img/c63f93519df863a490727ac311b57f95.jpeg" alt="PlatEMO Logo"></p>
 <p>PlatEMO是安徽大学BIMK团队（生物智能与知识发现研究所Institute of Bio-inspired Intelligence and Mining Knowledge）开发的一款以进化算法为基础的多目标优化框架库，这个库是由田野同学、程然博士、张兴义老师和金耀初老师开发。PlatEMO使用<strong>Matlab</strong>平台搭建而成，并带有GUI界面，是一款易用性、功能性和扩展性俱佳的优化工具。当前，该工具可在Windows、Linux双平台稳定使用了，对于Macos平台，开发人员还在验证测试中。对于Matlab熟悉的同学相信可以很快上手部署自己的优化模型使用PlatEMO进行多目标优化。</p>
