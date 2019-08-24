@@ -1131,16 +1131,6 @@ pre .javascript .function {
   transition-duration: 0.2s;
   transition-timing-function: ease-in-out;
 }
-.reading-progress-bar {
-  background: #37c6c0;
-  display: block;
-  height: 3px;
-  left: 0;
-  position: fixed;
-  top: 0;
-  width: 0;
-  z-index: 9999;
-}
 .header {
   background: transparent;
 }
@@ -1837,7 +1827,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #c9713c;
+  background: #c41791;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
