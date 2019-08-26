@@ -1,0 +1,1041 @@
+<!DOCTYPE html>
+
+
+
+
+
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/my-touch-icon.ico?v=7.3.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/my-favicon-32x32.ico?v=7.3.0">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/my-favicon-16x16.ico?v=7.3.0">
+  <link rel="mask-icon" href="/images/logo.svg?v=7.3.0" color="#222">
+
+<link rel="stylesheet" href="/css/main.css?v=7.3.0">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css?v=4.7.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3/dist/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="/lib/pace/pace-theme-minimal.min.css?v=1.0.2">
+  <script src="/lib/pace/pace.min.js?v=1.0.2"></script>
+
+
+<script id="hexo-configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Pisces',
+    version: '7.3.0',
+    exturl: false,
+    sidebar: {"position":"left","display":"post","offset":12,"onmobile":false},
+    copycode: {"enable":true,"show_result":true,"style":null},
+    back2top: {"enable":true,"sidebar":true,"scrollpercent":true},
+    bookmark: {"enable":true,"color":"#222","save":"auto"},
+    fancybox: true,
+    mediumzoom: false,
+    lazyload: false,
+    pangu: false,
+    algolia: {
+      appID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    },
+    localsearch: {"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},
+    path: 'search.xml',
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    translation: {
+      copy_button: '复制',
+      copy_success: '复制成功',
+      copy_failure: '复制失败'
+    }
+  };
+</script>
+
+  <meta name="description" content="说明：本文参考了豆瓣用户“水平+_松”的部分总结，本文仅用于学术交流。虽然本人的文章很少，但是经过的审稿过程确实是蛮多的，因而对核科学与技术领域的期刊有一些调查了解，几次被拒的经历也让我大致对一些期刊的风格有了一个初步的了解。结合周边人投稿的一些经历、网上的一些信息，再整理了一下，分享给大家以供大家在投稿选期刊时有一个初步参考。">
+<meta name="keywords" content="核技术">
+<meta property="og:type" content="article">
+<meta property="og:title" content="JCR上的核技术期刊">
+<meta property="og:url" content="https://hughdj.github.io/2019/08/26/JCR上的核技术期刊/index.html">
+<meta property="og:site_name" content="一颗螺丝丁的博客">
+<meta property="og:description" content="说明：本文参考了豆瓣用户“水平+_松”的部分总结，本文仅用于学术交流。虽然本人的文章很少，但是经过的审稿过程确实是蛮多的，因而对核科学与技术领域的期刊有一些调查了解，几次被拒的经历也让我大致对一些期刊的风格有了一个初步的了解。结合周边人投稿的一些经历、网上的一些信息，再整理了一下，分享给大家以供大家在投稿选期刊时有一个初步参考。">
+<meta property="og:locale" content="zh-CN">
+<meta property="og:image" content="https://raw.githubusercontent.com/hughdj/hughfigurebed/master/img/891f4659989da5a86d3839deb16311dd.jpeg">
+<meta property="og:image" content="https://raw.githubusercontent.com/hughdj/hughfigurebed/master/img/7e70973de26b5acad530a2a85eae8b94.jpeg">
+<meta property="og:image" content="https://raw.githubusercontent.com/hughdj/hughfigurebed/master/img/0df96bd0eb7099da63664933f5e9fb43.jpeg">
+<meta property="og:image" content="https://raw.githubusercontent.com/hughdj/hughfigurebed/master/img/821b6a8b672cc6de861d94f2714028fc.jpeg">
+<meta property="og:image" content="https://raw.githubusercontent.com/hughdj/hughfigurebed/master/img/8101771f7df75c3a7a5d6bbfab483310.jpeg">
+<meta property="og:image" content="https://raw.githubusercontent.com/hughdj/hughfigurebed/master/img/d48df48e489a8b737ac3d2e0aa6ced71.jpeg">
+<meta property="og:image" content="https://raw.githubusercontent.com/hughdj/hughfigurebed/master/img/14c6ba9d65fcf791d614e425c01e7b09.jpeg">
+<meta property="og:image" content="https://raw.githubusercontent.com/hughdj/hughfigurebed/master/img/f1e937f4a10f7a79eed7e77e0d3ac61b.jpeg">
+<meta property="og:image" content="https://raw.githubusercontent.com/hughdj/hughfigurebed/master/img/a9079457aab1ec669c15ed17bc04e8cb.jpeg">
+<meta property="og:image" content="https://raw.githubusercontent.com/hughdj/hughfigurebed/master/img/32c71ec9402b37908d07575baecfea88.jpeg">
+<meta property="og:image" content="https://raw.githubusercontent.com/hughdj/hughfigurebed/master/img/03cc079644e6fd1087f1b8b5e239c952.jpeg">
+<meta property="og:image" content="https://raw.githubusercontent.com/hughdj/hughfigurebed/master/img/6d6aef58059ebf6566ea82ae6e345be7.jpeg">
+<meta property="og:image" content="https://raw.githubusercontent.com/hughdj/hughfigurebed/master/img/d2265f0f4d8870631694a4a46c8d4505.jpeg">
+<meta property="og:image" content="https://raw.githubusercontent.com/hughdj/hughfigurebed/master/img/a6a1d5cc128f4fd400b36f73b1b2556d.jpeg">
+<meta property="og:image" content="https://raw.githubusercontent.com/hughdj/hughfigurebed/master/img/e07a5311b80f4b4341035eb0a0fc0779.jpeg">
+<meta property="og:image" content="https://raw.githubusercontent.com/hughdj/hughfigurebed/master/img/874521466923c50c7bdba0475b07d371.jpeg">
+<meta property="og:image" content="https://raw.githubusercontent.com/hughdj/hughfigurebed/master/img/5a0a511ed45a394463dc2a4653afd037.jpeg">
+<meta property="og:image" content="https://raw.githubusercontent.com/hughdj/hughfigurebed/master/img/c684db032ac2f0c00b024abaef4c73a0.jpeg">
+<meta property="og:image" content="https://raw.githubusercontent.com/hughdj/hughfigurebed/master/img/1561189244888.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/hughdj/hughfigurebed/master/img/10a1f674090109ea99a88e72d18072fd.jpeg">
+<meta property="og:updated_time" content="2019-08-26T03:28:15.505Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="JCR上的核技术期刊">
+<meta name="twitter:description" content="说明：本文参考了豆瓣用户“水平+_松”的部分总结，本文仅用于学术交流。虽然本人的文章很少，但是经过的审稿过程确实是蛮多的，因而对核科学与技术领域的期刊有一些调查了解，几次被拒的经历也让我大致对一些期刊的风格有了一个初步的了解。结合周边人投稿的一些经历、网上的一些信息，再整理了一下，分享给大家以供大家在投稿选期刊时有一个初步参考。">
+<meta name="twitter:image" content="https://raw.githubusercontent.com/hughdj/hughfigurebed/master/img/891f4659989da5a86d3839deb16311dd.jpeg">
+  <link rel="alternate" href="/atom.xml" title="一颗螺丝丁的博客" type="application/atom+xml">
+  <link rel="canonical" href="https://hughdj.github.io/2019/08/26/JCR上的核技术期刊/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome: false,
+    isPost: true,
+    isPage: false,
+    isArchive: false
+  };
+</script>
+
+  <title>JCR上的核技术期刊 | 一颗螺丝丁的博客</title>
+  <meta name="generator" content="Hexo 3.9.0">
+  
+
+
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .motion-element,
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .logo,
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-CN">
+  <div class="container use-motion">
+<a href="https://github.com/hughdj" class="github-corner" aria-label="View source on GitHub"><svg width="80" height="80" viewBox="0 0 250 250" style="fill:#151513; color:#fff; position: absolute; top: 0; border: 0; right: 0;" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta">
+
+    <div>
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">一颗螺丝丁的博客</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+  </div>
+
+  <div class="site-nav-toggle">
+    <button aria-label="切换导航栏">
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+
+<nav class="site-nav">
+  
+  <ul id="menu" class="menu">
+      
+      
+      
+        
+        <li class="menu-item menu-item-home">
+      
+    
+
+    <a href="/" rel="section"><i class="menu-item-icon fa fa-fw fa-home"></i> <br>首页</a>
+
+  </li>
+      
+      
+      
+        
+        <li class="menu-item menu-item-about">
+      
+    
+
+    <a href="/about/" rel="section"><i class="menu-item-icon fa fa-fw fa-user"></i> <br>关于</a>
+
+  </li>
+      
+      
+      
+        
+        <li class="menu-item menu-item-tags">
+      
+    
+
+    <a href="/tags/" rel="section"><i class="menu-item-icon fa fa-fw fa-tags"></i> <br>标签</a>
+
+  </li>
+      
+      
+      
+        
+        <li class="menu-item menu-item-categories">
+      
+    
+
+    <a href="/categories/" rel="section"><i class="menu-item-icon fa fa-fw fa-th"></i> <br>分类</a>
+
+  </li>
+      
+      
+      
+        
+        <li class="menu-item menu-item-archives">
+      
+    
+
+    <a href="/archives/" rel="section"><i class="menu-item-icon fa fa-fw fa-archive"></i> <br>归档</a>
+
+  </li>
+      <li class="menu-item menu-item-search">
+        <a href="javascript:;" class="popup-trigger">
+        
+          <i class="menu-item-icon fa fa-search fa-fw"></i> <br>搜索</a>
+      </li>
+    
+  </ul>
+
+</nav>
+  <div class="site-search">
+    <div class="popup search-popup">
+    <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-wrapper">
+    <input autocomplete="off" autocorrect="off" autocapitalize="none"
+           placeholder="搜索..." spellcheck="false"
+           type="text" id="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div id="search-result"></div>
+
+</div>
+<div class="search-pop-overlay"></div>
+
+  </div>
+</div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+            
+
+          <div id="content" class="content page-post-detail">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  <article class="post" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://hughdj.github.io/2019/08/26/JCR上的核技术期刊/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="hughdj">
+      <meta itemprop="description" content="关注互联网技术，集合与分享">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="一颗螺丝丁的博客">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">JCR上的核技术期刊
+
+          
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              
+                
+              
+
+              <time title="创建时间：2019-08-26 11:27:05 / 修改时间：11:28:15" itemprop="dateCreated datePublished" datetime="2019-08-26T11:27:05+08:00">2019-08-26</time>
+            </span>
+          
+            
+
+            
+          
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/科研之路/" itemprop="url" rel="index"><span itemprop="name">科研之路</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            <span class="post-meta-item" title="阅读次数">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">阅读次数：</span>
+              <span class="busuanzi-value" id="busuanzi_value_page_pv"></span>
+            </span>
+          
+          <br>
+            <span class="post-meta-item" title="本文字数">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-file-word-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">本文字数：</span>
+              
+              <span>17k</span>
+            </span>
+          
+            <span class="post-meta-item" title="阅读时长">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-clock-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">阅读时长 &asymp;</span>
+              
+              <span>15 分钟</span>
+            </span>
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <p><strong>说明：本文参考了豆瓣用户“水平+_松”的部分总结，本文仅用于学术交流。</strong></p><p>虽然本人的文章很少，但是经过的审稿过程确实是蛮多的，因而对核科学与技术领域的期刊有一些调查了解，几次被拒的经历也让我大致对一些期刊的风格有了一个初步的了解。结合周边人投稿的一些经历、网上的一些信息，再整理了一下，分享给大家以供大家在投稿选期刊时有一个初步参考。</p><a id="more"></a>
+
+<p>首先，如果您的文章足够优秀（观点方法新颖，研究热点，重大突破等等），那么这篇文字对您的用处不大，请搜集一些高影响的综合类期刊，争取发表在高水平期刊（按照<a href="https://jingyan.baidu.com/article/fea4511a2c467ef7bb9125f0.html" target="_blank" rel="noopener">JCR指标</a>，选一个高影响因子的、高分区的）。关于JCR如何使用，请参考<a href="https://mp.weixin.qq.com/s/aT2PMdMIyzN0jeEtS0j63g。接下来，如果你的文章没有特别过硬的实力，想提高中的概率，也许这篇文字可以有所帮助。" target="_blank" rel="noopener">https://mp.weixin.qq.com/s/aT2PMdMIyzN0jeEtS0j63g。接下来，如果你的文章没有特别过硬的实力，想提高中的概率，也许这篇文字可以有所帮助。</a></p>
+<h5 id="投稿须知"><a href="#投稿须知" class="headerlink" title="投稿须知"></a>投稿须知</h5><p>我曾经看过两个观点，我觉得很有意思，在这里分享一下：</p>
+<ol>
+<li>投稿就像相亲，是两方都在选择的过程，作者不要把自己放的太低</li>
+<li>既然相亲，如果连对方的一些基本要求、择偶标准都不知道，那失败率就很高了</li>
+</ol>
+<p>用在核科学期刊，第一点我想说明的是期刊其实并不是只有ANE、PNE、NST，他们在审视你的文章的同时，你也要审视期刊的审稿流程是否合理、编辑是否负责等等要素来做出是否在某一平台上发表。第二点是你需要对圈内的期刊进行摸底以选择正确的期刊或者能够满足你发表要求的期刊来进行投稿，这样能够有效的提高命中率。但最重要的是第三点，就是如果多次被拒也请不要轻易放弃你的文章，毕竟我见过被拒13次后接收的，也见过被低的拒、高的接收的情况；但是如果被拒，请按照审稿人意见认真修改，你的文章一定会变得更好，直至发表。我相信你不会到13次。</p>
+<h5 id="国内期刊"><a href="#国内期刊" class="headerlink" title="国内期刊"></a>国内期刊</h5><ol>
+<li><p>Chinese Physics C</p>
+<blockquote>
+<p>作者：水平+_松（来自豆瓣）</p>
+<p>《中国物理C》是原《高能物理与核物理》期刊，1977年创刊，月刊。主办单位：中国物理学会，中国科学院高能物理研究所和中国科学院近代物理研究所。貌似目前是SCI-E收录。期刊主要发表粒子物理、核物理、粒子与核天体物理和宇宙学、探测器，相关电子学和实验方法、加速器及同步辐射等学科在理论、实验与应用方面的研究论文。<br>期刊的主页是：<a href="http://cpc-hepnp.ihep.ac.cn/cn/dqml.asp" target="_blank" rel="noopener">http://cpc-hepnp.ihep.ac.cn/cn/dqml.asp</a><br>由于PDG的The Review of Particle Physics刊登在CPC上后，这篇文章的引用次数极高，因此自2015年起其影响因子开始大涨，2015年IF=3.761</p>
+</blockquote>
+<p>CPC是物理2区，也是核物理2区期刊，版面费较高。自从影响因子涨上去，收的文章质量也涨上去了，但是与核工程相关的较少，核物理的有一些，偏向于理论研究。从事核工程科学的可能就很难中了。浏览近期文章几乎看不到相关文章。所以虽然期刊水平不错，但其实中的几率很小。</p>
+<p><img src="https://raw.githubusercontent.com/hughdj/hughfigurebed/master/img/891f4659989da5a86d3839deb16311dd.jpeg" alt="screenshot.jpeg"></p>
+</li>
+<li><p>Nuclear Science and Techniques</p>
+<blockquote>
+<p>作者：水平+_松（来自豆瓣）</p>
+<p> Nuclear Science and Techniques即《核技术》(英文版)，由中国科学院上海应用物理研究所主办，中国核学会和上海市核学会协办，双月刊。主要学术方向为：新一代同步辐射技术及应用；低能加速器技术、射线技术及应用；核化学、放射化学、放射性药物和核医学；先进探测仪器及方法；核物理（理论、实验、应用）等。审稿和看出周期较短。目前是SCI-E检索系统收录。<br>期刊主页：<a href="http://www.j.sinap.ac.cn/nst/CN/volumn/home.shtml" target="_blank" rel="noopener">http://www.j.sinap.ac.cn/nst/CN/volumn/home.shtml</a><br>2015年IF=0.641</p>
+</blockquote>
+<p>不得不提，NST这个期刊在2019年发生了巨大的变化。首先是网页变成了全英文的主页，其实对于文章的要求变得更加严格，这与打造精品期刊可能有关。因而中的几率在降低，且对投稿文章做了一个硬性规定，即文章正文主体必须要大于5000字。期刊倾向于接收长研究。当前的影响因子为1.085，预计后续还会继续上升，将成为国内一个较优质的SCI期刊。</p>
+<p><img src="https://raw.githubusercontent.com/hughdj/hughfigurebed/master/img/7e70973de26b5acad530a2a85eae8b94.jpeg" alt="screenshot.jpeg"></p>
+<p><img src="https://raw.githubusercontent.com/hughdj/hughfigurebed/master/img/0df96bd0eb7099da63664933f5e9fb43.jpeg" alt="screenshot.jpeg"></p>
+</li>
+<li><p>物理学报Acta Physica Sinica（<strong>唯一的中文SCI期刊</strong>）</p>
+<blockquote>
+<p>作者：水平+_松</p>
+<p>《物理学报》是由中国物理学会和中国科学院物理研究所主办，创刊于1933年，被SCI-CD，SCI-E，Scopus，CA，INSPEC，EI，JICST，AJ和MR等检索系统收录。在国内物理领域，是主流期刊，也是物理类唯一的中文SCI收录期刊。对核领域的文章接收较少，主要偏重方法和基础理论。期刊主页的网址是：<a href="http://wulixb.iphy.ac.cn/CN/volumn/home.shtml。在主页左列的快捷栏中，通过“分类浏览”可以快速检索核领域被接收的文章，根据文章内容可大致判断期刊方向（虽然在期刊的简介里有介绍，但是少，而且不具体）。" target="_blank" rel="noopener">http://wulixb.iphy.ac.cn/CN/volumn/home.shtml。在主页左列的快捷栏中，通过“分类浏览”可以快速检索核领域被接收的文章，根据文章内容可大致判断期刊方向（虽然在期刊的简介里有介绍，但是少，而且不具体）。</a><br>《物理学报》由于投稿量的增大，目前是半月刊。文章从提交到外审结束很快，一般是1个月左右，经过专家外审，主编终审和校样，到见刊的时间一般是3-7个月。对于需要文章毕业的学生来说，一般也可以在2-3个月左右收到接收通知邮件。【投稿过，外审结束共3礼拜，主编终审花了段时间，总体来说很快】<br>2015年IF=0.677</p>
+</blockquote>
+<p>我身边的伙伴们似乎还没有投这个期刊的，可能很多人并不知道这个期刊。物理学报的核物理期刊下还是见到了不少眼熟的文章，涉及到的范围也比较广，实验与模拟类的都有。2018年IF为0.657，物理四区，对核领域来说影响因子也是可以的了，考虑到半月刊，可以拿来练手或者急用。版面费貌似400/页。</p>
+<p><img src="https://raw.githubusercontent.com/hughdj/hughfigurebed/master/img/821b6a8b672cc6de861d94f2714028fc.jpeg" alt="screenshot.jpeg"></p>
+</li>
+<li><p>原子能科学技术</p>
+<blockquote>
+<p>作者：水平+_松（来自豆瓣）</p>
+<p>《原子能科学技术》由中国原子能科学研究院主办，1959年创刊，先《EI Compendex》数据库收录，并设置“物理”、“化学”、“反应堆工程”、“技术及应用”等栏目。期刊主页是：<a href="http://www.aest.org.cn/CN/volumn/current.shtml。" target="_blank" rel="noopener">http://www.aest.org.cn/CN/volumn/current.shtml。</a><br>《原子能科学技术》是月刊，文章从提交到外审结束一般为1-5个月，拿到接收函的时间大约是3-6个月，但是刊出的时间比较晚，一般从投稿到刊出需要1年以上，这个可以在每一期文章的信息里做统计。【投稿过，审稿快，刊出很慢】</p>
+</blockquote>
+<p>原子能是国内为数不多的EI期刊了，从最近的投稿统计来看，文章审稿周期大多都是3-6个月之间，这个速度应该是大多数期刊平均审稿周期，期刊的目标是<strong>收登核科学技术方面具有创造性的科技成果, 旨在促进核科学与技术方面的交流、核技术与其他科学技术间的交叉渗透，推动核科技在国民经济方面的应用</strong>。因此，对于文章的创新性要求还是有一些的。期刊主页内提供了较全的投稿所需材料，据了解编辑的反应速度也是比较及时的。有加钱加急发表的服务。</p>
+<p><img src="https://raw.githubusercontent.com/hughdj/hughfigurebed/master/img/8101771f7df75c3a7a5d6bbfab483310.jpeg" alt="screenshot.jpeg"></p>
+</li>
+<li><p>核动力工程</p>
+<blockquote>
+<p>《核动力工程》主要刊登我国核能科技领域的最新研究成果及动向，综合介绍我国核能动力领域在理论研究、实验技术、工程设计、核电厂运行维护、安全防护、设备研制以及其他与核能动力应用直接相关的最新成果和发展动态。主要栏目有：反应堆物理、热工与水力、结构与力学、核燃料及反应堆结构材料、安全与控制、回路与设备、运行与维护等</p>
+</blockquote>
+<p>核工程也是为数不同的国内EI期刊，收录的内容也比较的广泛，但主要偏热工与工程，平均审稿周期为3-6个月。官网地址是<a href="http://jnpe.magtech.com.cn/CN/0258-0926/home.shtml。最近核动力工程才把网站和投稿系统做的稳定了。以前貌似是直接邮件发给编辑。版面费大约300/页。" target="_blank" rel="noopener">http://jnpe.magtech.com.cn/CN/0258-0926/home.shtml。最近核动力工程才把网站和投稿系统做的稳定了。以前貌似是直接邮件发给编辑。版面费大约300/页。</a></p>
+</li>
+<li><p>强激光与粒子束</p>
+<blockquote>
+<p>作者：水平+_松（来自豆瓣）</p>
+<p>强激光与粒子束》是由中国工程物理研究院和四川核学会1989年2月创办的国内外公开出版的科技期刊，2003年改为月刊，2008年增加了中国核学会为主办单位。该期刊主要报道我国高能激光与粒子束技术领域的基础理论、实验与应用研究的成果和最新进展。但近期也增加了“核能科学与工程”一栏目。期刊主页是：<a href="http://www.hplpb.com.cn/CN/volumn/home.shtml。" target="_blank" rel="noopener">http://www.hplpb.com.cn/CN/volumn/home.shtml。</a><br>《强激光与粒子束》是月刊，文章从提交到外审结束一般是1-2个月，到拿到接收函的时间大约是2-3个月，见刊时间一般是4-10个月。【投稿过，2个月接收，刊出速度一般，9月】</p>
+</blockquote>
+<p>强激光当前是中文核心期刊，收录一些核类的文章，但数量较少，从近期录用看，接收速度较快，周期在2月左右。急着要文章可以试试。</p>
+<p><img src="https://raw.githubusercontent.com/hughdj/hughfigurebed/master/img/d48df48e489a8b737ac3d2e0aa6ced71.jpeg" alt="screenshot.jpeg"></p>
+</li>
+<li><p>核技术</p>
+<blockquote>
+<p>作者：水平+_松（来自豆瓣）</p>
+<p>《核技术》由中国科学院上海应用物理研究所和中国核学会主办，创刊于1978年。主要学术方向为：同步辐射技术及应用，低能加速器技术、射线技术及应用，核化学、放射化学、放射性药物和核医学，核电子学与仪器，核物理与交叉学科研究和核能科学与工程等。目前是中文核心期刊，非EI收录。其英文版是SCI收录，后文有介绍。期刊主页是：<a href="http://www.j.sinap.ac.cn/hejishu/CN/volumn/home.shtml。" target="_blank" rel="noopener">http://www.j.sinap.ac.cn/hejishu/CN/volumn/home.shtml。</a><br>《核技术》是月刊，文章从提交到外审结束比较快，一般是1-2个月。【投稿过，审稿很快】</p>
+</blockquote>
+<p>核技术是常投的期刊，编辑较认真负责，态度好。电话或者邮件沟通方便，平均审稿周期大约是2-4个月，版面费在300/页左右。</p>
+<p><img src="https://raw.githubusercontent.com/hughdj/hughfigurebed/master/img/14c6ba9d65fcf791d614e425c01e7b09.jpeg" alt="screenshot.jpeg"></p>
+</li>
+<li><p>核科学与工程</p>
+<blockquote>
+<p>作者：水平+_松（来自豆瓣）</p>
+<p>《核科学与工程》由中国科学技术协会主管，中国核学会主办，季刊，一年出版4期，目前是中文核心期刊。期刊主页是：<a href="http://nuclse.cbpt.cnki.net/WKA/WebPublication/index.aspx?mid=hkxy" target="_blank" rel="noopener">http://nuclse.cbpt.cnki.net/WKA/WebPublication/index.aspx?mid=hkxy</a></p>
+</blockquote>
+<p>核科学的编辑貌似不是很积极，文章周期大概是4-6个月左右。可以加钱加急。</p>
+<p><img src="https://raw.githubusercontent.com/hughdj/hughfigurebed/master/img/f1e937f4a10f7a79eed7e77e0d3ac61b.jpeg" alt="screenshot.jpeg"></p>
+</li>
+<li><p>核电子学与探测技术</p>
+<blockquote>
+<p>作者：水平+_松（来自豆瓣）</p>
+<p>《核电子学与探测技术》，月刊，主要刊登核仪器、核电子学、核探测器与测试技术方面的研究成果。期刊的投稿平台是：<a href="http://here.cbpt.cnki.net/EditorCN/index.aspx?t=1&amp;mid=here。" target="_blank" rel="noopener">http://here.cbpt.cnki.net/EditorCN/index.aspx?t=1&amp;mid=here。</a><br>该期刊多年前曾由EI收录，目前属中文核心期刊。【投稿过，接收较快，刊出较慢。当然，允许加急出版，加钱】</p>
+</blockquote>
+<p>几乎没什么了解，有兴趣的可以去了解。</p>
+<p><img src="https://raw.githubusercontent.com/hughdj/hughfigurebed/master/img/a9079457aab1ec669c15ed17bc04e8cb.jpeg" alt="screenshot.jpeg"></p>
+</li>
+</ol>
+<ol start="10">
+<li>水平+_松还总结了一些关于辐射防护方面的文章和一些大学的学报的收录情况，由于不是本文所偏重难过的部分，所以如有需要还请参考[2]中的相关内容。</li>
+</ol>
+<h5 id="国外（SCI）期刊"><a href="#国外（SCI）期刊" class="headerlink" title="国外（SCI）期刊"></a>国外（SCI）期刊</h5><p>首先来一张最新2019年JCR公布的核科学与技术类期刊全家福。</p>
+<p><img src="https://raw.githubusercontent.com/hughdj/hughfigurebed/master/img/32c71ec9402b37908d07575baecfea88.jpeg" alt="screenshot.jpeg"></p>
+<p>相比较前两年，核类的期刊影响因子总体上是上升趋势的。INTERNATIONAL JOURNAL OF ENERGY RESEARCH是榜单中唯一大区二区且核技术类一区的期刊。其余期刊大类则都是二区以下，核技术类二区及以下。与2018年JCR（<a href="https://mp.weixin.qq.com/s/3wx324riem9JooRxZ1R9aw）公布的相比较而言，部分期刊在榜单上的排名发生了变化，2019年新增了Nuclear" target="_blank" rel="noopener">https://mp.weixin.qq.com/s/3wx324riem9JooRxZ1R9aw）公布的相比较而言，部分期刊在榜单上的排名发生了变化，2019年新增了Nuclear</a> Materials and Energy这一期刊。另外JOURNAL OF FUSION<br>ENERGY连续两年在榜，已经算是又杀回了SCI了。整体而言，这个家庭变化不大。按照水平+_松的思路，下面期刊将按照出版商进行分类。</p>
+<hr>
+<center>Elsevier
+------
+
+<ol>
+<li><p><strong>Journal of Nuclear Materials</strong></p>
+<p>算是核材料的权威期刊了，年文章数在500多以上，搞材料的不投一篇有点遗憾的。</p>
+<blockquote>
+<p>作者：水平+_松（来自豆瓣）</p>
+<p>主页链接：<a href="http://www.sciencedirect.com/science/journal/00223115" target="_blank" rel="noopener">http://www.sciencedirect.com/science/journal/00223115</a><br>该期刊不仅对本期刊的范围做了如下的要求说明： The following list describes topics within the scope of the Journal. Fission reactor materials, including fuels, cladding, core structures, pressure vessels, coolant interactions with materials, moderator and control components; fission product behavior. Materials aspects of the entire fuel cycle. Materials aspects of the actinides and their compounds. Performance of nuclear waste materials; immobilization of wastes. Fusion reactor materials, including first walls, blankets, insulators and magnets. Neutron and charged particle radiation effects in materials, including defects, transmutations, microstructures, phase changes and macroscopic properties. Interaction of plasmas, ion beams, electron beams and electromagnetic radiation with materials. 对于与核工程相关和材料相关，其还做了投稿建议。 </p>
+</blockquote>
+</li>
+<li><p><strong>Nuclear Material and Energy</strong></p>
+<p>新收录的季刊，open-access，从2015开始创建的，它的scope是纯研究材料行为的期刊，目前文章还不多，可以试水。但版面费还是比较贵的，1200刀不含税。审稿周期在6-10个月。主页链接：</p>
+<p><a href="https://www.journals.elsevier.com/nuclear-materials-and-energy" target="_blank" rel="noopener">https://www.journals.elsevier.com/nuclear-materials-and-energy</a></p>
+<p><img src="https://raw.githubusercontent.com/hughdj/hughfigurebed/master/img/03cc079644e6fd1087f1b8b5e239c952.jpeg" alt="screenshot.jpeg"></p>
+</li>
+<li><p><strong>Radiation Physics and Chemistry</strong></p>
+<blockquote>
+<p>作者：水平+_松（来自豆瓣）</p>
+<p>主页链接：<a href="http://www.sciencedirect.com/science/journal/0969806X" target="_blank" rel="noopener">http://www.sciencedirect.com/science/journal/0969806X</a><br>Radiation Physics and Chemistry is a multidisciplinary journal that provides a medium for publication of substantial and original papers, reviews, and short communications which focus on research and developments involving ionizing radiation in radiation physics, radiation chemistry and radiation processing.</p>
+</blockquote>
+<p>由于作者完全不搞这一块方向，所以大家还请看期刊的scope选择是否投稿吧。</p>
+</li>
+<li><p><strong>PROGRESS IN NUCLEAR ENERGY</strong></p>
+<p>PNE（月刊）应该是大家十分熟悉的期刊了，与ANE听起来似乎是姐妹期刊，是核科学研究者投的比较多的期刊之一。PNE可被看作是ANE的升级版，这一点从它的介绍中可以看出，而且它是明确的拒绝软件使用、测试类文章的。因为这类文章不够“新”。年文章在200篇，观察近两年在PNE上发表的文章，确实都是长文章或是比较深入的研究，而非一个初步结果。文章的内容质量得到了保证，影响因子这两年就上去了，感觉PNE以后会和ANE拉开差距，形成更高档次的期刊品牌。审稿周期大约是3-6个月，应该是不收版面费的。</p>
+<blockquote>
+<p>作者：水平+_松（来自豆瓣）</p>
+<p>期刊的主页链接为：<a href="http://www.journals.elsevier.com/progress-in-nuclear-energy" target="_blank" rel="noopener">http://www.journals.elsevier.com/progress-in-nuclear-energy</a><br>从题目就知晓涉及范围是核能的各个方向。但要注意： 1) PNE seeks high quality research papers which are medium to long in length. Short research papers should be submitted to the journal Annals in Nuclear Energy. 2) PNE reserves the right to reject papers which are based solely on routine application of computer codes used to produce reactor designs or explain existing reactor phenomena. Such papers, although worthy, are best left as laboratory reports whereas Progress in Nuclear Energy seeks papers of originality, which are archival in nature, in the fields of mathematical and experimental nuclear technology, including fission, fusion (blanket physics, radiation damage), safety, materials aspects, economics, etc.</p>
+</blockquote>
+</li>
+<li><p><strong>Nuclear Engineering and Technology</strong></p>
+<p>来自韩国核学会办的Open-access季刊，年文章数在200左右。我个人认为这个期刊非常棒，理由是不超过8页不收费，超过了一页200刀；Open-access让更多人能看到、引用你的文章；审稿速度还是不慢的，5-9个月左右；影响因子稳定在前列；只要是核技术类的都可以投，小道消息是中的概率还比较高。</p>
+<blockquote>
+<p>作者：水平+_松（来自豆瓣）</p>
+<p>主页链接：<a href="http://www.sciencedirect.com/science/journal/17385733" target="_blank" rel="noopener">http://www.sciencedirect.com/science/journal/17385733</a> NET covers all fields for peaceful utilization of nuclear energy and radiation as follows: 1) Reactor Physics 2) Thermal Hydraulics 3) Nuclear Safety 4) Nuclear I&amp;C 5) Nuclear Physics, Fusion, and Laser Technology 6) Nuclear Fuel Cycle and Radioactive Waste Management 7) Nuclear Fuel and Reactor Materials 8) Radiation Application 9) Radiation Protection 10) Nuclear Structural Analysis and Plant Management &amp; Maintenance 11) Nuclear Policy, Economics, and Human Resource Development</p>
+</blockquote>
+</li>
+<li><p><strong>NUCLEAR ENGINEERING AND DESIGN</strong></p>
+<p>月刊，年文章在450左右。NED这个期刊看似平淡无奇，但是翻阅它的文章你就可以看到接收的文章大部分是长研究文章，听说是大牛喜欢发的期刊之一。期刊有一些偏工程化，比较权威知名，但国内看影响因子、分区，这个方面它好像没有什么优势（大区小区都是四区）。审稿周期在3-6个月，谨慎试水。</p>
+<blockquote>
+<p>作者：水平+_松（来自豆瓣）</p>
+<p>主页链接：<a href="http://www.sciencedirect.com/science/journal/00295493" target="_blank" rel="noopener">http://www.sciencedirect.com/science/journal/00295493</a> 涉及的范围很广，但主要还是核能。 Fundamentals of Reactor Design include: • Thermal-Hydraulics and Core Physics • Safety Analysis, Risk Assessment (PSA) • Structural and Mechanical Engineering • Materials Science • Fuel Behavior and Design • Structural Plant Design • Engineering of Reactor Components • Experiments Aspects beyond fundamentals of Reactor Design covered: • Accident Mitigation Measures • Reactor Control Systems • Licensing Issues • Safeguard Engineering • Economy of Plants • Reprocessing / Waste Disposal • Applications of Nuclear Energy • Maintenance • Decommissioning Papers on new reactor ideas and developments (Generation IV reactors) such as inherently safe modular HTRs, High Performance LWRs/HWRs and LMFBs/GFR will be considered; Actinide Burners, Accelerator Driven Systems, Energy Amplifiers and other special designs of power and research reactors and their applications are also encouraged.</p>
+</blockquote>
+</li>
+<li><p><strong>FUSION ENGINEERING AND DESIGN</strong></p>
+<p>月刊，年文章数在800多，搞聚变的应该都有个几篇FED的文章吧。核技术小区二区。审稿周期在3-6个月。</p>
+<blockquote>
+<p>作者：水平+_松（来自豆瓣）</p>
+<p>主页链接：<a href="http://www.sciencedirect.com/science/journal/09203796" target="_blank" rel="noopener">http://www.sciencedirect.com/science/journal/09203796</a> 着重磁约束和惯性约束的聚变及相关领域。 The journal accepts papers about experiments (both plasma and technology), theory, models, methods, and designs in areas relating to technology, engineering, and applied science aspects of magnetic and inertial fusion energy. Specific areas of interest include: MFE and IFE design studies for experiments and reactors; fusion nuclear technologies and materials, including blankets and shields; analysis of reactor plasmas; plasma heating, fuelling, and vacuum systems; drivers, targets, and special technologies for IFE, controls and diagnostics; fuel cycle analysis and tritium reprocessing and handling; operations and remote maintenance of reactors; safety, decommissioning, and waste management; economic and environmental analysis of components and systems.</p>
+</blockquote>
+</li>
+<li><p><strong>RADIATION MEASUREMENTS</strong></p>
+<p>因为个人研究方向限制，没有太多了解。</p>
+<blockquote>
+<p>作者：水平+_松（来自豆瓣）</p>
+<p>主页链接：<a href="http://www.sciencedirect.com/science/journal/13504487" target="_blank" rel="noopener">http://www.sciencedirect.com/science/journal/13504487</a> Radiation Measurements provides a forum for the presentation of the latest developments in the broad field of ionizing radiation detection and measurement and publishes original papers on both fundamental and applied research. 更详细的方向要求见主页说明</p>
+</blockquote>
+</li>
+<li><p><strong>NUCLEARINSTRUMENTS &amp; METHODS IN PHYSICS RESEARCH SECTION A-ACCELERATORS SPECTROMETERS DETECTORS AND ASSOCIATED EQUIPMENT</strong></p>
+<blockquote>
+<p>作者：水平+_松（来自豆瓣）</p>
+<p>主页链接：<a href="http://www.sciencedirect.com/science/journal/01689002，涉及的方向见题目和期刊主页的介绍。" target="_blank" rel="noopener">http://www.sciencedirect.com/science/journal/01689002，涉及的方向见题目和期刊主页的介绍。</a></p>
+</blockquote>
+</li>
+<li><p><strong>ANNALS OF NUCLEAR ENERGY</strong></p>
+<p>这个就不说了，国人投的最多的刊了吧，年文章数在500多。这些年对文章的要求还是慢慢在增加的。</p>
+<blockquote>
+<p>作者：水平+_松（来自豆瓣）</p>
+<p>该期刊主页链接为：<a href="http://www.sciencedirect.com/science/journal/03064549" target="_blank" rel="noopener">http://www.sciencedirect.com/science/journal/03064549</a> 期刊涉及的范围非常广，涉核的都可以投。投稿到送审很快，得到返修意见的速度也还可以，如果催一催编辑会更快点，总的来说不错，中国人每年会在上面发很多文章。关键是无版面费。【投稿过，比较快，投稿到见刊6个月】</p>
+</blockquote>
+</li>
+<li><p><strong>APPLIED RADIATION AND ISOTOPES</strong></p>
+<p>主要刊发反应堆、加速器、核素的辐射研究类的文章。具体的细节可去主页看看。审稿周期约</p>
+<blockquote>
+<p>作者：水平+_松（来自豆瓣）</p>
+<p>主页链接：<a href="http://www.sciencedirect.com/science/journal/09698043" target="_blank" rel="noopener">http://www.sciencedirect.com/science/journal/09698043</a> Applied Radiation and Isotopes provides a high quality medium for the publication of substantial, original and scientific and technological papers on the development and applications of nuclear, radiation and radionuclide techniques in chemistry, physics, biochemistry, biology, medicine, security, engineering and in the earth, planetary and environmental sciences. Nuclear techniques are defined in the broadest sense and both experimental and theoretical papers are welcome. They include the development and use of α- and β-particles, X-rays and γ-rays, neutrons and other nuclear particles and radiations from all sources, including radionuclides, synchrotron sources, cyclotrons and reactors and from the natural environment.</p>
+</blockquote>
+</li>
+<li><p><strong>NUCLEAR INSTRUMENTS &amp; METHODS IN PHYSICS RESEARCH SECTION B-BEAM INTERACTIONS</strong><br><strong>WITH MATERIALS AND ATOMS</strong></p>
+<p>主页链接：<a href="http://www.sciencedirect.com/science/journal/0168583X" target="_blank" rel="noopener">http://www.sciencedirect.com/science/journal/0168583X</a></p>
+</li>
+</ol>
+<hr>
+<center>Talor&Francis
+------
+
+<ol>
+<li><p><strong>International Journal of Radiation Biology</strong></p>
+<p>来自英国的月刊，年文章数为141左右。主要收录的是核医学、辐射方面的文章。审稿周期大约在6个月左右。期刊主页：<a href="https://www.tandfonline.com/loi/irab20" target="_blank" rel="noopener">https://www.tandfonline.com/loi/irab20</a></p>
+</li>
+<li><p><strong>JOURNAL OF NUCLEAR SCIENCE AND TECHNOLOGY</strong></p>
+<p>来自日本的月刊，在业界内是任何度较高的一个老牌期刊，不过分区都是4区，去年影响因子在1之下，不是很理解，今年终于又上去了。我个人十分推荐这个期刊，理由主要是审稿周期快，2-6个月，二是编辑十分认真负责，反馈快。期刊年文章数大约在151篇，所以中的概率不是很大。但文章质量不错，或者集需文章可以投稿。期刊主页：<a href="http://www.tandfonline.com/loi/tnst20" target="_blank" rel="noopener">http://www.tandfonline.com/loi/tnst20</a></p>
+</li>
+<li><p><strong>NUCLEAR SCIENCE AND ENGINEERING</strong></p>
+<p>美国核学会办的经典月刊了，但同样的影响因子不高，可能Talor没有Elsevier宣传做的好吧。年文章量在90左右，领域内认可度很高，许多核技术类的经典文章都是出自NSE，一些经典会议如PHYSOR每年也会放一些优秀文章到NSE。NSE的文章倾向于一些长研究或者有一些工程应用的，期刊的审稿周期也是比较快的，大约在3-6月。有一篇NSE的文章相信也是不错的一个资本。期刊主页：<a href="https://www.tandfonline.com/loi/unse20" target="_blank" rel="noopener">https://www.tandfonline.com/loi/unse20</a></p>
+</li>
+<li><p><strong>NUCLEAR TECHNOLOGY</strong></p>
+<p>美国核技术。美国核学会办的月刊，审稿周期较快，3-6个月，年文章数目在91篇，文章质量没有前两个那么硬，涉及的范围较广，具体的可以看看scope。期刊主页：<a href="https://www.tandfonline.com/toc/unct20/current" target="_blank" rel="noopener">https://www.tandfonline.com/toc/unct20/current</a></p>
+</li>
+<li><p><strong>FUSION SCIENCE AND TECHNOLOGY</strong></p>
+<p>聚变领域的都可以投，缺点是审稿周期可能要等上一年。年文章数目在202篇左右，期刊主页：<a href="https://www.tandfonline.com/loi/ufst20" target="_blank" rel="noopener">https://www.tandfonline.com/loi/ufst20</a></p>
+</li>
+<li><p><strong>Radiation Effects and Defects in Solids</strong></p>
+<p>固体辐射效应与缺陷，同时接收等离子体相关的文章，审稿时间也比较漫长，半年起步，一年正常，年文章数目89。期刊主页<a href="https://www.tandfonline.com/toc/grad20/current。" target="_blank" rel="noopener">https://www.tandfonline.com/toc/grad20/current。</a></p>
+</li>
+</ol>
+<hr>
+<center>Springer
+------
+
+<ol>
+<li><p><strong>Nuclear Science and Techniques</strong></p>
+<p>来自中国上海应物所办的SCI期刊，以前对文章的质量不是很重视，现在对文章的质量抓的比较严，2019年特别重新对网页进行了设计，已经为全英文网页。年文章数184左右，文章审稿周期大约3-6个月，效率也还可以，编辑是国人的，可以中文交流，特别要注意的是现在收的稿件正文（除去摘要、参考文献等等）必须要大于5000字才能送审。涉及的范围比较广、核类都可以试一试。</p>
+</li>
+<li><p><strong>JOURNAL OF FUSION ENERGY</strong></p>
+<p>据说很多年前是神刊，什么文章都收，不是聚变也收，后被踢出SCI，这两年又回来了，影响因子也还可以。现在的文章几乎全是聚变的了，年仅刊30篇文章左右。审稿周期不明。</p>
+</li>
+<li><p><strong>JOURNAL OF RADIOANALYTICAL AND NUCLEAR CHEMISTRY</strong></p>
+<p>辐射防护类期刊。期刊主页：<a href="https://link.springer.com/journal/10967" target="_blank" rel="noopener">https://link.springer.com/journal/10967</a></p>
+</li>
+<li><p><strong>Atomic Energy</strong></p>
+<p>十分冷门了</p>
+<blockquote>
+<p>作者：水平+_松（来自豆瓣）<br>来源：<a href="https://www.douban.com/note/548217750/" target="_blank" rel="noopener">https://www.douban.com/note/548217750/</a></p>
+<p>2014年影响因子为0.089，SCI收录。期刊为俄罗斯对应期刊的翻译版，Coveres wide range of topics including nuclear chemistry and physics, plasma physics, accelerator characteristics, reactor economics and engineering, applications of isotopes, and radiation monitoring and safety</p>
+</blockquote>
+</li>
+</ol>
+<hr>
+<center>IEEE
+------
+
+<ol>
+<li><p>IEEE TRANSCTION of NUCLEAR SCIENCE</p>
+<p>IEEE下也有核类的期刊TNS，且是双月刊，年文章数在381左右，是核科学技术的小区三区。审稿周期大约在4-6个月。根据它的scope，TNS侧重于检测和测量电离辐射的仪器；粒子加速器及其控制；核医学及其应用；辐射对材料、部件和系统的影响；反应堆仪表和控制；和空间辐射的测量。对于物理则很少涉及。期刊主页：<a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=23" target="_blank" rel="noopener">https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=23</a></p>
+</li>
+</ol>
+<hr>
+<center>WILEY
+------
+
+<ol>
+<li><p>INTERNATIONALJOURNAL OF ENERGY RESEARCH</p>
+<p>来自英国的能源类月刊，核技术小区的一区，大类二区，审稿周期短，期刊很不错，年文章数目在187左右。但目前核类的文章还比较少，偏环境、工程以及宏观技术的观点讨论。其scope如下，如果有相关的有追求影响因子的推荐试试这个期刊。期刊主页：<a href="http://onlinelibrary.wiley.com/journal/10.1002/(ISSN)1099-114X" target="_blank" rel="noopener">http://onlinelibrary.wiley.com/journal/10.1002/(ISSN)1099-114X</a></p>
+</li>
+</ol>
+<hr>
+<center>Hindawi
+------
+
+<ol>
+<li><p><strong>Science and Technology of Nuclear Installations</strong></p>
+<p>Open-access期刊，比较冷门了，版面费较贵。看过评价说，这个期刊审稿很快，着急要文章的可以试试。期刊主页：<a href="http://www.hindawi.com/journals/stni/" target="_blank" rel="noopener">http://www.hindawi.com/journals/stni/</a>。几乎身边很少有人投或知道这个期刊，偏工程一些的可以试试水。</p>
+<p><img src="https://raw.githubusercontent.com/hughdj/hughfigurebed/master/img/6d6aef58059ebf6566ea82ae6e345be7.jpeg" alt="screenshot.jpeg"></p>
+<p><img src="https://raw.githubusercontent.com/hughdj/hughfigurebed/master/img/d2265f0f4d8870631694a4a46c8d4505.jpeg" alt="screenshot.jpeg"></p>
+</li>
+</ol>
+<hr>
+<center>其它
+------
+
+<ol>
+<li><p><strong>Radiochimica Acta</strong></p>
+<p>来自英国的月刊，年文章数在100左右。主要收录核、放射性核素的化学反应类文章，审稿周期不明，期刊主页：<a href="https://www.degruyter.com/view/j/ract" target="_blank" rel="noopener">https://www.degruyter.com/view/j/ract</a></p>
+</li>
+<li><p><strong>JOURNAL OF RADIOLOGICAL PROTECTION</strong></p>
+<p>主页：<a href="https://iopscience.iop.org/journal/0952-4746" target="_blank" rel="noopener">https://iopscience.iop.org/journal/0952-4746</a></p>
+</li>
+<li><p><strong>HEALTH PHYSICS</strong></p>
+<p>主页：<a href="https://journals.lww.com/health-physics/pages/default.aspx" target="_blank" rel="noopener">https://journals.lww.com/health-physics/pages/default.aspx</a></p>
+</li>
+<li><p><strong>RADIATION PROTECTION DOSIMETRY</strong></p>
+<p>来自英国的双月刊，年文章数目在300多篇，核类的主要是医学及环境类的，有许多核辐射探测与辐射源的文章，审稿周期不明。期刊主页：<a href="https://academic.oup.com/rpd" target="_blank" rel="noopener">https://academic.oup.com/rpd</a></p>
+</li>
+<li><p><strong>Nuclear Technology &amp; Radiation Protection</strong></p>
+<p>来自塞尔维亚的open-access季刊，年文章大概在50篇左右，审稿周期较快，大概在3-6个月，9个月左右发表。涉及的内容也十分地广，文章接受率较高。无投稿系统，直接邮件联系，需要文章的可以考虑。水平哥中的版面费较贵信息有误，其实版面费是不高的，150刀。期刊主页<a href="http://ntrp.vinca.rs/" target="_blank" rel="noopener">http://ntrp.vinca.rs/</a></p>
+</li>
+<li><p><strong>Radioprotection</strong></p>
+<p>来自法国的季刊，收辐射防护类的文章。年文章数极少，大概30篇之内，内容包括(理论和实践方面):剂量测定、仪器开发、专门测量技术、流行病学、生物效应(体内和体外)以及风险和环境影响评估等。期刊主页：<a href="https://www.radioprotection.org/" target="_blank" rel="noopener">https://www.radioprotection.org/</a></p>
+</li>
+<li><p><strong>KERNTECHNIK</strong></p>
+<p>接下来就是听也没听过的期刊了，影响因子也是巨低的。这个貌似是来自德国的一个期刊，涉及的范围也十分广，涉核或者辐射防护都可以投。审稿周期不明，但还是可以看到一些国人在上面发表的文章的。一年大概发个4期，季刊。年文章数大约是80左右。期刊主页：<a href="https://www.hanser-elibrary.com/loi/kt" target="_blank" rel="noopener">https://www.hanser-elibrary.com/loi/kt</a></p>
+</li>
+<li><p><strong>ATW-INTERNATIONAL JOURNAL FOR NUCLEAR POWER</strong></p>
+<p>这个期刊也是德国的，月刊，一年大约80篇文章。貌似是邮箱投稿。<a href="https://www.kernd.eu/kernd-en/fachzeitschrift-atw/autorenhinweise/有一份guideline，对文章的要求还是比较仔细的，也是较高的。" target="_blank" rel="noopener">https://www.kernd.eu/kernd-en/fachzeitschrift-atw/autorenhinweise/有一份guideline，对文章的要求还是比较仔细的，也是较高的。</a></p>
+<p><img src="https://raw.githubusercontent.com/hughdj/hughfigurebed/master/img/a6a1d5cc128f4fd400b36f73b1b2556d.jpeg" alt="screenshot.jpeg"></p>
+</li>
+<li><p><strong>NUCLEAR ENGINEERING INTERNATIONAL</strong></p>
+<p>来自英国的月刊，年文章数目在56左右，未找到投稿入口。</p>
+</li>
+</ol>
+<h5 id="一些补充"><a href="#一些补充" class="headerlink" title="一些补充"></a>一些补充</h5><p>其实还有一些是与核沾边，或者更大类的，如<strong>Nuclear Data Sheets</strong>（数据库类的文章）、<strong>IEEE Access</strong>（综合类的期刊），水平+_松在他的文章中还指出了一些，像下图：</p>
+<p><img src="https://raw.githubusercontent.com/hughdj/hughfigurebed/master/img/e07a5311b80f4b4341035eb0a0fc0779.jpeg" alt="screenshot.jpeg"></p>
+<p>希望大家能去原文看看。</p>
+<h5 id="一些知识"><a href="#一些知识" class="headerlink" title="一些知识"></a>一些知识</h5><ol>
+<li><p>怎么查看期刊的平均审稿周期？</p>
+<p>如Elsevier、Talor等在每篇文章页面都有相关的信息，多多留意观察。然后看个十几篇，估计一下。</p>
+<p><img src="https://raw.githubusercontent.com/hughdj/hughfigurebed/master/img/874521466923c50c7bdba0475b07d371.jpeg" alt="screenshot.jpeg"></p>
+<p><img src="https://raw.githubusercontent.com/hughdj/hughfigurebed/master/img/5a0a511ed45a394463dc2a4653afd037.jpeg" alt="screenshot.jpeg"></p>
+<p><img src="https://raw.githubusercontent.com/hughdj/hughfigurebed/master/img/c684db032ac2f0c00b024abaef4c73a0.jpeg" alt="screenshot.jpeg"></p>
+</li>
+<li><p>Elsevier中如何跟踪文章、提出需求？</p>
+<p>Elsevier最大出版商不是浪得虚名的，除了在投稿系统、邮件联系编辑获取稿件信息外，你还可以使用Elsevier客服来跟踪文章，提出需求，如延长交稿时间、询问稿件状态。客服回应时间是24小时内。客服地址：<a href="https://service.elsevier.com/app/contact/supporthub/publishing/。其余出版商大家也可以探索下。" target="_blank" rel="noopener">https://service.elsevier.com/app/contact/supporthub/publishing/。其余出版商大家也可以探索下。</a></p>
+<p><img src="https://raw.githubusercontent.com/hughdj/hughfigurebed/master/img/1561189244888.png" alt></p>
+<p><img src="https://raw.githubusercontent.com/hughdj/hughfigurebed/master/img/10a1f674090109ea99a88e72d18072fd.jpeg" alt="screenshot.jpeg"></p>
+</li>
+</ol>
+<ol start="3">
+<li><p>如何快速判断我的文章适不适合这个期刊？</p>
+<p>详细阅读guideline for author，尤其Aim&amp; scope 或 站内搜索你文章的关键词，查看是否有相似文章。</p>
+</li>
+<li><p>文章遇到奇怪的审稿状态</p>
+<p>上小木虫搜一搜，问问。</p>
+</li>
+<li><p>想到再补充，欢迎分享你的经验</p>
+</li>
+</ol>
+<h5 id="谈谈润色"><a href="#谈谈润色" class="headerlink" title="谈谈润色"></a>谈谈润色</h5><p>润色其实蛮重要，一个好的语言表达起码能够让审稿人看的舒服看的明白，所以如果文章表达太差，又比较赶，可以考虑。但是注意的是我看到的大多数润色仅仅是帮你改改语言，不要指望他们做更多。一般润色分标准和高级版，普通和加急版，简单理解花更多钱享受更多服务，比如无限次免费修改，随时改格式，两天返回修改稿等等。Elsevier与Taylor他们编辑有时候会推荐给你润色机构。我在这里列一下看到的还可以的润色机构。</p>
+<ol>
+<li><p>American Journal Experts （THOMSON REUTERS 官方推荐）</p>
+</li>
+<li><p>EditSprings（好像经常收到广告，听使用的人反馈还行，价格比较有优势）</p>
+</li>
+<li><p>Editage（Taylor官方合作）</p>
+</li>
+<li><p>Charlesworth（貌似比较老牌）</p>
+</li>
+</ol>
+<h5 id="参考目录"><a href="#参考目录" class="headerlink" title="参考目录"></a>参考目录</h5><p>[1] <a href="https://www.douban.com/note/548217750/" target="_blank" rel="noopener">https://www.douban.com/note/548217750/</a></p>
+<p>[2] <a href="https://www.douban.com/note/537281174/" target="_blank" rel="noopener">https://www.douban.com/note/537281174/</a></p>
+<p>[3] <a href="http://www.letpub.com.cn/index.php?page=journalapp" target="_blank" rel="noopener">http://www.letpub.com.cn/index.php?page=journalapp</a></p>
+<p>[4] <a href="https://jcr.clarivate.com/JCRLandingPageAction.action?Init=Yes&amp;SrcApp=IC2LS&amp;SID=H6-la4dIyLM2IcxxtNV39edY7e2x2FXpQjnnNo-18x2dSYBsc7Yz7dzXs0XqhOfBNgx3Dx3DSx2FKdXGwHY26kFMcw0n08lwx3Dx3D-03Ff2gF3hTJGBPDScD1wSwx3Dx3D-cLUx2FoETAVeN3rTSMreq46gx3Dx3D" target="_blank" rel="noopener">https://jcr.clarivate.com/JCRLandingPageAction.action?Init=Yes&amp;SrcApp=IC2LS&amp;SID=H6-la4dIyLM2IcxxtNV39edY7e2x2FXpQjnnNo-18x2dSYBsc7Yz7dzXs0XqhOfBNgx3Dx3DSx2FKdXGwHY26kFMcw0n08lwx3Dx3D-03Ff2gF3hTJGBPDScD1wSwx3Dx3D-cLUx2FoETAVeN3rTSMreq46gx3Dx3D</a></p>
+</center></center></center></center></center></center></center>
+    </div>
+    <div>
+     
+      <div>
+    
+        <div style="text-align:center;color: #ccc;font-size:14px;">-------------本文结束<i class="fa fa-paw"></i>感谢您的阅读-------------</div>
+    
+</div>
+
+     
+     </div>
+
+    
+    
+    
+        <div id="wechat_subscriber" style="display: block; padding: 10px 0; margin: 20px auto; width: 100%; text-align: center;">
+  <img id="wechat_subscriber_qcode" src="/images/wechat.png" alt="hughdj wechat" style="width: 200px; max-width: 100%;">
+  <div>欢迎来我的微信公众号看一看</div>
+</div>
+
+      
+        
+      
+
+      <footer class="post-footer">
+          
+            
+          
+          <div class="post-tags">
+            
+              <a href="/tags/核技术/" rel="tag"># 核技术</a>
+            
+          </div>
+        
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-next post-nav-item">
+              
+                <a href="/2019/08/23/开源免费的轻量音频视频剪辑工具lossless-cut上手/" rel="next" title="开源免费的轻量音频视频剪辑工具lossless-cut上手">
+                  <i class="fa fa-chevron-left"></i> 开源免费的轻量音频视频剪辑工具lossless-cut上手
+                </a>
+              
+            </div>
+
+            <span class="post-nav-divider"></span>
+
+            <div class="post-nav-prev post-nav-item">
+              
+                <a href="/2019/08/26/投稿信？撤稿信？催稿信？我都尝试总结了下/" rel="prev" title="投稿信？撤稿信？催稿信？我都尝试总结了下">
+                  投稿信？撤稿信？催稿信？我都尝试总结了下 <i class="fa fa-chevron-right"></i>
+                </a>
+              
+            </div>
+          </div>
+        
+      </footer>
+    
+  </div>
+  
+  
+  
+  </article>
+
+  </div>
+
+
+          </div>
+          
+
+        </div>
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+        
+        
+        
+        
+      
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc" data-target="post-toc-wrap">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+          站点概览
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc">
+            <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-5"><a class="nav-link" href="#投稿须知"><span class="nav-number">1.</span> <span class="nav-text">投稿须知</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#国内期刊"><span class="nav-number">2.</span> <span class="nav-text">国内期刊</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#国外（SCI）期刊"><span class="nav-number">3.</span> <span class="nav-text">国外（SCI）期刊</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#一些补充"><span class="nav-number">4.</span> <span class="nav-text">一些补充</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#一些知识"><span class="nav-number">5.</span> <span class="nav-text">一些知识</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#谈谈润色"><span class="nav-number">6.</span> <span class="nav-text">谈谈润色</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#参考目录"><span class="nav-number">7.</span> <span class="nav-text">参考目录</span></a></li></ol></div>
+          </div>
+        
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image"
+      src="/images/avatar.gif"
+      alt="hughdj">
+  <p class="site-author-name" itemprop="name">hughdj</p>
+  <div class="site-description motion-element" itemprop="description">关注互联网技术，集合与分享</div>
+</div>
+  <nav class="site-state motion-element">
+      <div class="site-state-item site-state-posts">
+        
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">5</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+    
+      
+      
+      <div class="site-state-item site-state-categories">
+        
+          
+            <a href="/categories/">
+          
+        
+        
+        
+          
+        
+          
+        
+          
+        
+        <span class="site-state-item-count">3</span>
+        <span class="site-state-item-name">分类</span>
+        </a>
+      </div>
+    
+      
+      
+      <div class="site-state-item site-state-tags">
+        
+          
+            <a href="/tags/">
+          
+        
+        
+        
+          
+        
+          
+        
+          
+        
+        <span class="site-state-item-count">3</span>
+        <span class="site-state-item-name">标签</span>
+        </a>
+      </div>
+    
+  </nav>
+  <div class="feed-link motion-element">
+    <a href="/atom.xml" rel="alternate">
+      <i class="fa fa-rss"></i>RSS
+    </a>
+  </div>
+  <div class="links-of-author motion-element">
+      <span class="links-of-author-item">
+      
+      
+        
+      
+      
+        
+      
+        <a href="https://github.com/hughdj" title="GitHub &rarr; https://github.com/hughdj" rel="noopener" target="_blank"><i class="fa fa-fw fa-github"></i>GitHub</a>
+      </span>
+    
+      <span class="links-of-author-item">
+      
+      
+        
+      
+      
+        
+      
+        <a href="mailto:dh19930920@gmail.com" title="E-Mail &rarr; mailto:dh19930920@gmail.com" rel="noopener" target="_blank"><i class="fa fa-fw fa-envelope"></i>E-Mail</a>
+      </span>
+    
+      <span class="links-of-author-item">
+      
+      
+        
+      
+      
+        
+      
+        <a href="https://weibo.com/yourname" title="Zhihu &rarr; https://weibo.com/yourname" rel="noopener" target="_blank"><i class="fa fa-fw fa-sticky-note"></i>Zhihu</a>
+      </span>
+    
+      <span class="links-of-author-item">
+      
+      
+        
+      
+      
+        
+      
+        <a href="https://plus.google.com/yourname" title="weibo &rarr; https://plus.google.com/yourname" rel="noopener" target="_blank"><i class="fa fa-fw fa-weibo"></i>weibo</a>
+      </span>
+    
+  </div>
+
+
+
+        </div>
+      </div>
+        <div class="back-to-top motion-element">
+          <i class="fa fa-arrow-up"></i>
+          <span>0%</span>
+        </div>
+      
+      
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<div class="copyright">&copy; <span itemprop="copyrightYear">2019</span>
+  <span class="with-love" id="animate">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">hughdj</span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-area-chart"></i>
+    </span>
+    <span title="站点总字数">30k</span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-coffee"></i>
+    </span>
+    <span title="站点阅读时长">28 分钟</span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io" class="theme-link" rel="noopener" target="_blank">Hexo</a> 强力驱动 v3.9.0</div>
+  <span class="post-meta-divider">|</span>
+  <div class="theme-info">主题 – <a href="https://theme-next.org" class="theme-link" rel="noopener" target="_blank">NexT.Pisces</a> v7.3.0</div>
+
+        
+<div class="busuanzi-count">
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-user"></i>
+    </span>
+    <span class="site-uv" title="总访客量">
+      <span class="busuanzi-value" id="busuanzi_value_site_uv"></span>
+    </span>
+  
+    <span class="post-meta-divider">|</span>
+  
+    <span class="post-meta-item-icon">
+      <i class="fa fa-eye"></i>
+    </span>
+    <span class="site-pv" title="总访问量">
+      <span class="busuanzi-value" id="busuanzi_value_site_pv"></span>
+    </span>
+  
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+  <a class="book-mark-link book-mark-link-fixed" href="#"></a>
+
+  </div>
+
+  
+  <script src="/lib/jquery/index.js?v=3.4.1"></script>
+  <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3/dist/jquery.fancybox.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  <script src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+<script src="/js/utils.js?v=7.3.0"></script><script src="/js/motion.js?v=7.3.0"></script><script src="/js/bookmark.js?v=7.3.0"></script>
+<script src="/js/schemes/pisces.js?v=7.3.0"></script>
+<script src="/js/next-boot.js?v=7.3.0"></script>
+
+
+
+  
+
+
+
+
+
+
+
+
+  <script src="/js/local-search.js?v=7.3.0"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+  
+
+
+  
+  <script src="/js/post-details.js?v=7.3.0"></script>
+
+
+</body>
+</html>

@@ -57,19 +57,26 @@
   };
 </script>
 
-  <meta name="description" content="关注互联网技术，集合与分享">
-<meta property="og:type" content="website">
-<meta property="og:title" content="文章分类">
-<meta property="og:url" content="https://hughdj.github.io/categories/index.html">
+  <meta name="description" content="这篇文章的写作动机是diss某篇文章的。事情的起因是由于一个月前我身边的同事在我的介绍下准备使用Jmetal框架来进行他的某一项优化工作，但是他在测试中却发现无论使用哪种优化算法都无法找到真实的最优解，进而对进化算法产生了怀疑。起初我以为是计算量不足导致无法收敛，于是我本着老大哥的姿态想要展示一下调参的技巧，结果意外地发现确实怎么也找不到真实最优解。正当我觉得有点下不来台的时候，我想到了一个问题—">
+<meta name="keywords" content="多目标优化">
+<meta property="og:type" content="article">
+<meta property="og:title" content="智能优化算法的测试数据集">
+<meta property="og:url" content="https://hughdj.github.io/2019/08/26/智能优化算法的测试数据集/index.html">
 <meta property="og:site_name" content="一颗螺丝丁的博客">
-<meta property="og:description" content="关注互联网技术，集合与分享">
+<meta property="og:description" content="这篇文章的写作动机是diss某篇文章的。事情的起因是由于一个月前我身边的同事在我的介绍下准备使用Jmetal框架来进行他的某一项优化工作，但是他在测试中却发现无论使用哪种优化算法都无法找到真实的最优解，进而对进化算法产生了怀疑。起初我以为是计算量不足导致无法收敛，于是我本着老大哥的姿态想要展示一下调参的技巧，结果意外地发现确实怎么也找不到真实最优解。正当我觉得有点下不来台的时候，我想到了一个问题—">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-08-24T09:37:16.053Z">
+<meta property="og:image" content="https://raw.githubusercontent.com/hughdj/hughfigurebed/master/img/20190727074140.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/hughdj/hughfigurebed/master/img/_20190726115720.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/hughdj/hughfigurebed/master/img/_20190727085159.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/hughdj/hughfigurebed/master/img/_20190727082247.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/hughdj/hughfigurebed/master/img/_20190727085254.png">
+<meta property="og:updated_time" content="2019-08-26T03:30:03.894Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="文章分类">
-<meta name="twitter:description" content="关注互联网技术，集合与分享">
+<meta name="twitter:title" content="智能优化算法的测试数据集">
+<meta name="twitter:description" content="这篇文章的写作动机是diss某篇文章的。事情的起因是由于一个月前我身边的同事在我的介绍下准备使用Jmetal框架来进行他的某一项优化工作，但是他在测试中却发现无论使用哪种优化算法都无法找到真实的最优解，进而对进化算法产生了怀疑。起初我以为是计算量不足导致无法收敛，于是我本着老大哥的姿态想要展示一下调参的技巧，结果意外地发现确实怎么也找不到真实最优解。正当我觉得有点下不来台的时候，我想到了一个问题—">
+<meta name="twitter:image" content="https://raw.githubusercontent.com/hughdj/hughfigurebed/master/img/20190727074140.png">
   <link rel="alternate" href="/atom.xml" title="一颗螺丝丁的博客" type="application/atom+xml">
-  <link rel="canonical" href="https://hughdj.github.io/categories/">
+  <link rel="canonical" href="https://hughdj.github.io/2019/08/26/智能优化算法的测试数据集/">
 
 
 <script id="page-configurations">
@@ -77,13 +84,13 @@
   CONFIG.page = {
     sidebar: "",
     isHome: false,
-    isPost: false,
-    isPage: true,
+    isPost: true,
+    isPage: false,
     isArchive: false
   };
 </script>
 
-  <title>文章分类 | 一颗螺丝丁的博客</title>
+  <title>智能优化算法的测试数据集 | 一颗螺丝丁的博客</title>
   <meta name="generator" content="Hexo 3.9.0">
   
 
@@ -243,86 +250,184 @@
         <div class="content-wrap">
             
 
-    
-    
-      
-      
-    
-      
-      
-    
-      
-      
-    
-      
-      
-    
-      
-      
-    
-    
-
-  
-
           <div id="content" class="content page-post-detail">
             
 
   <div id="posts" class="posts-expand">
     
-    
-    
-    <div class="post-block page">
-      <header class="post-header">
 
-<h1 class="post-title" itemprop="name headline">文章分类
-
-</h1>
-
-<div class="post-meta">
+  <article class="post" itemscope itemtype="http://schema.org/Article">
   
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://hughdj.github.io/2019/08/26/智能优化算法的测试数据集/">
 
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="hughdj">
+      <meta itemprop="description" content="关注互联网技术，集合与分享">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="一颗螺丝丁的博客">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">智能优化算法的测试数据集
+
+          
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              
+                
+              
+
+              <time title="创建时间：2019-08-26 11:27:05 / 修改时间：11:30:03" itemprop="dateCreated datePublished" datetime="2019-08-26T11:27:05+08:00">2019-08-26</time>
+            </span>
+          
+            
+
+            
+          
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/算法基础/" itemprop="url" rel="index"><span itemprop="name">算法基础</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            <span class="post-meta-item" title="阅读次数">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">阅读次数：</span>
+              <span class="busuanzi-value" id="busuanzi_value_page_pv"></span>
+            </span>
+          
+          <br>
+            <span class="post-meta-item" title="本文字数">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-file-word-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">本文字数：</span>
+              
+              <span>1.7k</span>
+            </span>
+          
+            <span class="post-meta-item" title="阅读时长">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-clock-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">阅读时长 &asymp;</span>
+              
+              <span>2 分钟</span>
+            </span>
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <p>这篇文章的写作动机是diss某篇文章的。事情的起因是由于一个月前我身边的同事在我的介绍下准备使用Jmetal框架来进行他的某一项优化工作，但是他在测试中却发现无论使用哪种优化算法都无法找到真实的最优解，进而对进化算法产生了怀疑。起初我以为是计算量不足导致无法收敛，于是我本着老大哥的姿态想要展示一下调参的技巧，结果意外地发现确实怎么也找不到真实最优解。正当我觉得有点下不来台的时候，我想到了一个问题——测试例题的正确性。于是他打开了原论文，指出了文中给出的例题与真实的最优解，但经过我的核算发现论文中所声称的真实最优解解根本就是错的！不仅如此，连其它的解也都是错的，无法满足例题方程。我顿时骂了一句，心想以后看中文文章还是要留个心眼，当然作者写的理直气壮是牛批！这样的文章能发出来更是牛批！也难怪唯Sci论，中文文章真是不怎么争气。</p><a id="more"></a>
+<p><img src="https://raw.githubusercontent.com/hughdj/hughfigurebed/master/img/20190727074140.png" alt></p>
+<p>生气归生气，例题还是要找的。Jmetal中含有众多的例题，但并算全。接下来我为大家介绍一些比较好的最优化测试参考例题的提供方，希望能够帮助使用者验证以及了解算法特性及对不同问题的适用性。</p>
+<p><strong>Virtual Library of Simulation Experiments</strong>（<a href="http://www.sfu.ca/~ssurjano/index.html）" target="_blank" rel="noopener">http://www.sfu.ca/~ssurjano/index.html）</a></p>
+<p>​       该网站旨在作为一套功能和数据集，用于评估设计和分析涉及计算机模型的实验的新方法。在左侧找到的每个类别下，都有一个相应函数和数据集的列表。每个都有一个详细的描述，以及在材料数据库和资源数据库中的实现。该网站是一项正在进行的工作，更多的功能和数据集正在添加过程中。对于最优化测试集的获取选择Optimization选项即可看到右侧多个测试例题。这些测试例题以函数特征（单峰、多峰、陡降）区分。</p>
+<p><img src="https://raw.githubusercontent.com/hughdj/hughfigurebed/master/img/_20190726115720.png" alt></p>
+<p><strong>DEAP Benchmarks</strong> （<a href="https://deap.readthedocs.io/en/master/api/benchmarks.html）" target="_blank" rel="noopener">https://deap.readthedocs.io/en/master/api/benchmarks.html）</a></p>
+<p>​       DEAP是一个新颖的进化计算框架，用于快速原型制作和测试。DEAP是使用Python写成的，它试图使算法明确，数据结构透明。它与多处理和SCOOP等并行机制完美协调地工作。在其官方webpage的Benchmarks栏目中给出了DEAP框架中的一些基准例题，同样DEAP把这些测试问题分类列出，是一份难得的可靠研究例题集。</p>
+<p><img src="https://raw.githubusercontent.com/hughdj/hughfigurebed/master/img/_20190727085159.png" alt></p>
+<p><strong>TSP问题测试集MP-TESTDATA</strong> （<a href="http://elib.zib.de/pub/mp-testdata/tsp/tsplib/tsp/）" target="_blank" rel="noopener">http://elib.zib.de/pub/mp-testdata/tsp/tsplib/tsp/）</a></p>
+<p>​       TSP旅行商问题是经典的优化（规划）问题，主要目标是求遍历一个给定的城市集合的最短路径。研究者们在对TSP优化算法的研究中，提出了许多测试例题，这些测试例题部分来源于真实城市间的距离。Tsplib95（<a href="https://www.iwr.uni-heidelberg.de/groups/comopt/software/TSPLIB95/）是研究者常用的测试集，但大部分为大规模例题，十分具有挑战性，适用于算法后期的攻坚，不是快速验证算法的最佳例题集。而MP-TESTDATA之中则是将研究论文中出现了中小规模题总结了起来，测试价值更高。另外https://eden.dei.uc.pt/~paquete/tsp/给出了经典的多目标TSP测试例题数据集与参考文献，测试价值也相当不错。" target="_blank" rel="noopener">https://www.iwr.uni-heidelberg.de/groups/comopt/software/TSPLIB95/）是研究者常用的测试集，但大部分为大规模例题，十分具有挑战性，适用于算法后期的攻坚，不是快速验证算法的最佳例题集。而MP-TESTDATA之中则是将研究论文中出现了中小规模题总结了起来，测试价值更高。另外https://eden.dei.uc.pt/~paquete/tsp/给出了经典的多目标TSP测试例题数据集与参考文献，测试价值也相当不错。</a></p>
+<p><img src="https://raw.githubusercontent.com/hughdj/hughfigurebed/master/img/_20190727082247.png" alt></p>
+<p><strong>Pareto真实解数据集</strong></p>
+<p>​      Pareto真实解对于优化算法的验证是必备的。这里再介绍一个Emoobook主页（<a href="https://www.cs.cinvestav.mx/~emoobook/），这其实是书籍**Evolutionary" target="_blank" rel="noopener">https://www.cs.cinvestav.mx/~emoobook/），这其实是书籍**Evolutionary</a> Algorithms for Solving Multi-Objective Problems**的电子版参考主页，其中提供了许多测试函数的Pareto真实集，同样地对这些函数做了区分。由于是配套书籍附录，其中列出地内容也是比较全的，值得参考。</p>
+<p><img src="https://raw.githubusercontent.com/hughdj/hughfigurebed/master/img/_20190727085254.png" alt></p>
+<p>至此，就为大家罗列了一下我曾使用到过的测试数据集。感谢您的阅读~</p>
+
+    </div>
+    <div>
+     
+      <div>
+    
+        <div style="text-align:center;color: #ccc;font-size:14px;">-------------本文结束<i class="fa fa-paw"></i>感谢您的阅读-------------</div>
+    
 </div>
 
-</header>
+     
+     </div>
+
+    
+    
+    
+        <div id="wechat_subscriber" style="display: block; padding: 10px 0; margin: 20px auto; width: 100%; text-align: center;">
+  <img id="wechat_subscriber_qcode" src="/images/wechat.png" alt="hughdj wechat" style="width: 200px; max-width: 100%;">
+  <div>欢迎来我的微信公众号看一看</div>
+</div>
 
       
-      
-      
-      <div class="post-body">
         
-          <div class="category-all-page">
-            <div class="category-all-title">
+      
+
+      <footer class="post-footer">
+          
+            
+          
+          <div class="post-tags">
+            
+              <a href="/tags/多目标优化/" rel="tag"># 多目标优化</a>
+            
+          </div>
+        
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-next post-nav-item">
               
+                <a href="/2019/08/26/投稿信？撤稿信？催稿信？我都尝试总结了下/" rel="next" title="投稿信？撤稿信？催稿信？我都尝试总结了下">
+                  <i class="fa fa-chevron-left"></i> 投稿信？撤稿信？催稿信？我都尝试总结了下
+                </a>
               
-                
-                  
-                
-              
-                
-                  
-                
-              
-                
-                  
-                
-              
-              目前共计 3 个分类
             </div>
-            <div class="category-all">
-              <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/技术分享/">技术分享</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/科研之路/">科研之路</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/算法基础/">算法基础</a><span class="category-list-count">2</span></li></ul>
+
+            <span class="post-nav-divider"></span>
+
+            <div class="post-nav-prev post-nav-item">
+              
             </div>
           </div>
         
-      </div>
-      
-      
-      
-    </div>
+      </footer>
     
+  </div>
+  
+  
+  
+  </article>
 
-    
-    
-    
   </div>
 
 
@@ -601,9 +706,8 @@
 
 
   
-    <script src="/js/post-details.js?v=7.3.0"></script>
+  <script src="/js/post-details.js?v=7.3.0"></script>
 
-  
 
 </body>
 </html>
