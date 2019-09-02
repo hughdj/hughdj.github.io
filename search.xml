@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[记录windows使用过程中的一系列问题及解决措施]]></title>
+    <url>%2F2019%2F09%2F02%2F%E8%AE%B0%E5%BD%95windows%E4%BD%BF%E7%94%A8%E8%BF%87%E7%A8%8B%E4%B8%AD%E7%9A%84%E4%B8%80%E7%B3%BB%E5%88%97%E9%97%AE%E9%A2%98%E5%8F%8A%E8%A7%A3%E5%86%B3%E6%8E%AA%E6%96%BD%2F</url>
+    <content type="text"><![CDATA[win+E每次打开窗口很小 手动拖右下角放大至你喜欢的窗口大小，重新打开一次看]]></content>
+      <categories>
+        <category>技术分享</category>
+      </categories>
+      <tags>
+        <tag>windows</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[IDM的罕见操作：简易爬虫]]></title>
     <url>%2F2019%2F08%2F27%2FIDM%E7%88%AC%E5%8F%96%E7%AB%99%E7%82%B9%2F</url>
     <content type="text"><![CDATA[记录一下IDM的罕见操作：简易爬虫我有一个需求就是想下载公共服务器上的所有文件，一个一个下地点击下载显然太蠢了，身为一个效率提倡者，我尝试想些一个简单的python爬虫，但是对web端并不熟悉的我犯难了，于是我开始查，查了半个小时我放弃了，因为网站上所谓的教程实在是太混乱了。我的目标是一个小时之内解决战斗，于是我想到了采集器：八爪鱼、后羿等等。八爪鱼没办法用，有较大的学习成本，后羿倒是可以用，但是要充钱。充钱是万万不可能的，于是我默默地推出了，想放弃了，心想干脆就一个一个地下载吧，也花不了多长时间。偶然间我打开IDM，发现了IDM上赫然写着“站点抓取”这一个选项，嗯，我尝试了下。 第一步： 第二步： 第三步（不要探索父目录勾选，因为我要抓的是一个中间目录）： 第四步（添加你的过滤器，这个棒）： 第五步：Enjoy It！ 最终完美地把服务器地目录与文件复制到了本地。Nice！ 意外的收获~]]></content>
@@ -9,17 +20,6 @@
       </categories>
       <tags>
         <tag>爬虫</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[记录windows使用过程中的一系列问题及解决措施]]></title>
-    <url>%2F2019%2F08%2F27%2F%E8%AE%B0%E5%BD%95windows%E4%BD%BF%E7%94%A8%E8%BF%87%E7%A8%8B%E4%B8%AD%E7%9A%84%E4%B8%80%E7%B3%BB%E5%88%97%E9%97%AE%E9%A2%98%E5%8F%8A%E8%A7%A3%E5%86%B3%E6%8E%AA%E6%96%BD%2F</url>
-    <content type="text"><![CDATA[win+E每次打开窗口很小 手动拖右下角放大至你喜欢的窗口大小，重新打开一次看]]></content>
-      <categories>
-        <category>技术分享</category>
-      </categories>
-      <tags>
-        <tag>windows</tag>
       </tags>
   </entry>
   <entry>
